@@ -1,0 +1,25 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aronphong/restaurant-page.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aronphong/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/aronphong/restaurant-page#readme"
+}
