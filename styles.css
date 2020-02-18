@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    height: 100%;
+    background-color: grey;
+}
+
+#content {
+    /* background: url(images/dinner.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
