@@ -70,3 +70,40 @@ li :hover {
     border-bottom: 2px solid tomato;
     cursor: pointer;
 }
+
+.menu {
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-header {
+    font-size: 45px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid tomato;
+}
+
+.menu-category {
+    min-width: 75vw;
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu-title {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    padding-left: 10px;
+}
