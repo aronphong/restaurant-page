@@ -10,6 +10,7 @@ const renderMenuContent = () => {
 
     menuContainer.appendChild(homeTitle);
 
+    // create 'staples' menu category
     const menuStaples = document.createElement("div");
     menuStaples.className = "menu-category";
     menuStaples.id = "menu-Staples";
@@ -17,22 +18,55 @@ const renderMenuContent = () => {
     const staplesTitle = document.createElement("h2");
     staplesTitle.className = "menu-title";
     staplesTitle.textContent = "Our Staples";
-
     menuStaples.appendChild(staplesTitle);
 
+    const staplesItem1 = document.createElement("p");
+    staplesItem1.className = "menu-item";
+    staplesItem1.innerHTML = "Flapjacks - Our buttermilk battter, warm syrup, diced fruit, whipped butter <br>";
 
-    const menuAppetizer = document.createElement("div");
-    menuAppetizer.className = "menu-category";
-    menuAppetizer.id = "menu-appetizer";
+    const staplesItem2 = document.createElement("p");
+    staplesItem2.className = "menu-item";
+    staplesItem2.innerHTML = "Breakfast Burrito - House chorizo, scrambled eggs, cheddar, potato <br>";
+    
 
-    const appetizerTitle = document.createElement("h2");
-    appetizerTitle.className = "menu-title";
-    appetizerTitle.textContent = "Appetizers";
+    const staplesItem3 = document.createElement("p");
+    staplesItem3.className = "menu-item";
+    staplesItem3.innerHTML = "Biscuit, bacon & gravy - Warm biscuit, bacon, our bacon gravy, and two eggs <br>";
 
-    menuAppetizer.appendChild(appetizerTitle);
+    menuStaples.appendChild(staplesItem1);
+    menuStaples.appendChild(staplesItem2);
+    menuStaples.appendChild(staplesItem3);
+
+
+    // create 'sides' menu category
+    const menuSides = document.createElement("div");
+    menuSides.className = "menu-category";
+    menuSides.id = "menu-sides";
+
+    const sidesTitle = document.createElement("h2");
+    sidesTitle.className = "menu-title";
+    sidesTitle.textContent = "Sides";
+    menuSides.appendChild(sidesTitle);
+
+    const sidesItem1 = document.createElement("p");
+    sidesItem1.className = "menu-item";
+    sidesItem1.innerHTML = "Avocado Toast <br>";
+
+    const sidesItem2 = document.createElement("p");
+    sidesItem2.className = "menu-item";
+    sidesItem2.innerHTML = "Country potatoes <br>";
+
+    const sidesItem3 = document.createElement("p");
+    sidesItem3.className = "menu-item";
+    sidesItem3.innerHTML = "Biscuit <br>";
+
+
+    menuSides.appendChild(sidesItem1);
+    menuSides.appendChild(sidesItem2);
+    menuSides.appendChild(sidesItem3);
 
     menuContainer.appendChild(menuStaples);
-    menuContainer.appendChild(menuAppetizer);
+    menuContainer.appendChild(menuSides);
 
 
     container.appendChild(menuContainer);
