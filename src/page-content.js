@@ -6,15 +6,16 @@ const renderPageContent = () => {
     const nav = document.createElement("nav");
     const ul = document.createElement("ul");
 
-    const liHome = document.createElement("li");
-    const aHome = document.createElement("a");
-    aHome.id = "nav-home";
-    aHome.textContent = "Home";
-    liHome.appendChild(aHome);
-    ul.appendChild(liHome);
+    // const liHome = document.createElement("li");
+    // const aHome = document.createElement("a");
+    // aHome.id = "nav-home";
+    // aHome.textContent = "Home";
+    // liHome.appendChild(aHome);
+    // ul.appendChild(liHome);
 
     const liMenu = document.createElement("li");
     const aMenu = document. createElement("a");
+    aMenu.id = "nav-menu";
     aMenu.textContent = "Menu";
     liMenu.appendChild(aMenu);
     ul.appendChild(liMenu);
@@ -22,6 +23,7 @@ const renderPageContent = () => {
 
     const liContact = document.createElement("li");
     const aContact = document.createElement("a");
+    aContact.id = "nav-contact";
     aContact.textContent = "Contact";
     liContact.appendChild(aContact);
     ul.appendChild(liContact);
